@@ -48,6 +48,8 @@ defaults:
       show_date: true
       layout: single
       read_time: true
+
+teaser: "/assets/teaser-1.jpg"
     
 atom_feed:
   hide: true
