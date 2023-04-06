@@ -39,24 +39,24 @@ minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon"
 logo: "/assets/ico.svg"
 
 locale: "ru"
+
 defaults:
   # _posts
   - scope:
       path: ""
       type: posts
     values:
-      show_date: true
       layout: single
+      author_profile: true
       read_time: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_label: "Содержание"
+      toc_icon: "fa-solid fa-book"
+      toc_sticky: true
 
-teaser: /assets/teaser-1.jpg
-
-toc: true
-toc_label: "Содержание"
-toc_icon: "fa-solid fa-book"
-
-header:
-  teaser: /assets/teaser-1.jpg
 
 #breadcrumbs: true  # disabled by default
 
