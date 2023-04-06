@@ -40,7 +40,6 @@ defaults:
   - scope:
       path: ""
       type: posts
-      author_profile: true
     values:
       show_date: true
       layout: single
@@ -57,8 +56,8 @@ compress_html:
 author:
   name     : "Вдовин Дмитрий"
   avatar   : "/assets/avatar.png"
-  bio      : "Студент первого курса ОмГТУ на базе 9 класса группы ССАо-222."
-  location : "Омск, Россия"
+  bio      : "Студент первого курса, неплохой человек."
+  location : "Омск, Омская область, Россия"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
