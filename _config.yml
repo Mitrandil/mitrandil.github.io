@@ -53,6 +53,12 @@ compress_html:
   ignore:
     envs: development  # disable compression in dev environment
 
+author:
+  name     : "Вдовин Дмитрий"
+  avatar   : "/assets/avatar.png"
+  bio      : "Студент первого курса ОмГТУ на базе 9 класса группы ССАо-222."
+  location : "Омск, Россия"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
