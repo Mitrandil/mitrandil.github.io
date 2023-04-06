@@ -35,6 +35,17 @@ plugins:
   - jekyll-include-cache
 
 locale: "ru"
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      read_time: true
+    atom_feed:
+      hide: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
