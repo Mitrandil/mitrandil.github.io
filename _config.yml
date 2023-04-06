@@ -42,6 +42,7 @@ defaults:
       type: posts
     values:
       show_date: true
+      layout: single
       read_time: true
     atom_feed:
       hide: true
