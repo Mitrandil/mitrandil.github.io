@@ -38,7 +38,6 @@ minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon"
 
 logo: "/assets/ico.svg"
 
-
 locale: "ru"
 defaults:
   # _posts
@@ -62,7 +61,6 @@ author:
   name     : "Вдовин Дмитрий"
   avatar   : "/assets/avatar.png"
   bio      : "Студент первого курса, неплохой человек."
-  location : "Омск, Омская область, Россия"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
