@@ -50,7 +50,11 @@ defaults:
       read_time: true
 
 teaser: /assets/teaser-1.jpg
-  
+
+toc: true
+toc_label: "Содержание"
+toc_icon: "fa-solid fa-book"
+
 header:
   teaser: /assets/teaser-1.jpg
 
