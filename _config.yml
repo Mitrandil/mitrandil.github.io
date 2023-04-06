@@ -40,6 +40,7 @@ defaults:
   - scope:
       path: ""
       type: posts
+      author_profile: true
     values:
       show_date: true
       layout: single
