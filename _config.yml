@@ -49,8 +49,13 @@ defaults:
       layout: single
       read_time: true
 
-teaser: "/assets/teaser-1.jpg"
-    
+teaser: /assets/teaser-1.jpg
+  
+header:
+  teaser: /assets/teaser-1.jpg
+
+#breadcrumbs: true  # disabled by default
+
 atom_feed:
   hide: true
 
