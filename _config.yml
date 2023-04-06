@@ -44,9 +44,14 @@ defaults:
       show_date: true
       layout: single
       read_time: true
-    atom_feed:
-      hide: true
+    
+atom_feed:
+  hide: true
 
+compress_html:
+  clippings: all
+  ignore:
+    envs: development  # disable compression in dev environment
 
 # Exclude from processing.
 # The following items will not be processed, by default.
