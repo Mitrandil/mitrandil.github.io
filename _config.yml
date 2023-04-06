@@ -69,9 +69,8 @@ compress_html:
     envs: development  # disable compression in dev environment
 
 author:
-  name     : "Вдовин Дмитрий"
+  name     : "Александр Ланский"
   avatar   : "/assets/avatar.png"
-  bio      : "Студент первого курса, неплохой человек."
 
 # Exclude from processing.
 # The following items will not be processed, by default.
