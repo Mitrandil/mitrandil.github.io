@@ -70,11 +70,11 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Mitrandil"
     - label: "Mail"
-      icon: "fab fa-solid fa-envelope-open"
+      icon: "fas fa-fw fa-envelope-square"
       url: "mailto:anatoliyyakovlev011@gmail.com"
 
 header:
-  image: /assets/header.jpg
+  image: /assets/img/header.jpg
 
 # Exclude from processing.
 # The following items will not be processed, by default.
