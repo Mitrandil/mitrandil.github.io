@@ -70,7 +70,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Mitrandil"
     - label: "Mail"
-      icon: "fa-solid fa-envelope"
+      icon: "fa-solid fa-mailbox"
       url: "mailto:anatoliyyakovlev011@gmail.com"
 
 # Exclude from processing.
