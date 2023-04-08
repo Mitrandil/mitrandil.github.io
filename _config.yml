@@ -36,7 +36,7 @@ plugins:
 
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-logo: "/assets/ico.svg"
+logo: "/assets/ico.png"
 
 locale: "ru"
 
@@ -57,20 +57,21 @@ defaults:
       toc_icon: "fa-solid fa-book"
       toc_sticky: true
 
+teaser: /assets/img/teaser-1.jpg
 
 #breadcrumbs: true  # disabled by default
 
 atom_feed:
   hide: true
 
-compress_html:
-  clippings: all
-  ignore:
-    envs: development  # disable compression in dev environment
-
-author:
-  name     : "Александр Ланский"
-  avatar   : "/assets/avatar.png"
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Mitrandil"
+    - label: "Mail"
+      icon: "fa-solid fa-envelope"
+      url: "mailto:anatoliyyakovlev011@gmail.com"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
