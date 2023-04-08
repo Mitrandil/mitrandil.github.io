@@ -73,6 +73,9 @@ footer:
       icon: "fa-solid fa-mailbox"
       url: "mailto:anatoliyyakovlev011@gmail.com"
 
+header:
+  image: /assets/images/header.jpg
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
