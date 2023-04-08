@@ -57,7 +57,7 @@ defaults:
       toc_icon: "fa-solid fa-book"
       toc_sticky: true
 
-teaser: /assets/img/teaser-1.jpg
+teaser: /assets/img/teaser.jpg
 
 #breadcrumbs: true  # disabled by default
 
@@ -72,9 +72,6 @@ footer:
     - label: "Mail"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:anatoliyyakovlev011@gmail.com"
-
-header:
-  image: /assets/img/header.jpg
 
 # Exclude from processing.
 # The following items will not be processed, by default.
