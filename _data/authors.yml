@@ -5,3 +5,7 @@ Lanski:
 Nick:
   name        : "Ник Эвансон"
   avatar      : "/assets/avatar.png"
+
+Keith:
+  name        : "Кейт О'Конор"
+  avatar      : "/assets/avatar.png"
