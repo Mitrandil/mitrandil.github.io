@@ -56,9 +56,9 @@ defaults:
       toc_label: "Содержание"
       toc_icon: "fa-solid fa-book"
       toc_sticky: true
-      teaser: /assets/img/teaser.jpg
+      teaser: /assets/img/teaser-1.jpg
     header:
-      teaser: /assets/img/teaser.jpg
+      teaser: /assets/img/teaser-1.jpg
 
 #breadcrumbs: true  # disabled by default
 
