@@ -59,7 +59,15 @@ defaults:
 
 teaser: /assets/img/teaser.jpg
 
+header:
+  teaser: /assets/img/teaser.jpg
+
 #breadcrumbs: true  # disabled by default
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "mitrandil"
 
 atom_feed:
   hide: true
