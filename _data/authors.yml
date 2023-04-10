@@ -9,3 +9,7 @@ Nick:
 Keith:
   name        : "Кейт О'Конор"
   avatar      : "/assets/avatar.png"
+
+Desaulniers:
+  name        : "Ник Десаулнирс"
+  avatar      : "/assets/avatar.png"

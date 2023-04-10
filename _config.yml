@@ -34,6 +34,9 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+lunr:
+  search_within_pages: true
+
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 logo: "/assets/ico.png"
