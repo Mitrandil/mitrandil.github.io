@@ -1,15 +1,31 @@
 Lanski:
   name        : "Александр Ланский"
   avatar      : "/assets/avatar.png"
+  links:
+    - label: "Оригинал статьи"
+      icon: "fas fa-fw fa-link"
+      url: "https://tproger.ru/explain/how-cpu-works/"
 
 Nick:
   name        : "Ник Эвансон"
   avatar      : "/assets/avatar.png"
+  links:
+    - label: "Оригинал статьи"
+      icon: "fas fa-fw fa-link"
+      url: "https://habr.com/ru/articles/506470/"
 
 Keith:
   name        : "Кейт О'Конор"
   avatar      : "/assets/avatar.png"
+  links:
+    - label: "Оригинал статьи"
+      icon: "fas fa-fw fa-link"
+      url: "https://habr.com/ru/articles/337484/"
 
 Desaulniers:
   name        : "Ник Десаулнирс"
   avatar      : "/assets/avatar.png"
+  links:
+    - label: "Оригинал статьи"
+      icon: "fas fa-fw fa-link"
+      url: "https://habr.com/ru/articles/722824/"
