@@ -26,6 +26,6 @@
 ## 📦 Установка и запуск
 1. Клонировать репозиторий:
 ```bash
-git clone https://github.com/Mitrandil/mitrandil.github.io
+git clone https://github.com/Mitrandil/mitrandil.github.io.git
 ```
 2. Запустить index.html в любом браузере
