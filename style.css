@@ -1,0 +1,285 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #333;
+    --secondary-color: #4CAF50;
+    --text-color: #fff;
+    --section-padding: 5rem 2rem;
+    --max-width: 1200px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--primary-color);
+}
+
+/* Header Styles */
+.header {
+    background: var(--primary-color);
+    color: var(--text-color);
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--secondary-color);
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('src/splash.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--text-color);
+    padding-top: 60px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Sections Common Styles */
+.section {
+    padding: var(--section-padding);
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.about {
+    background: #f4f4f4;
+}
+
+/* Services Grid */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.service-card {
+    background: var(--text-color);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Contact Section */
+.contact {
+    background: var(--primary-color);
+    color: var(--text-color);
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.service-card ul {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+.service-card li {
+    margin: 0.8rem 0;
+    line-height: 1.4;
+    color: #555;
+}
+
+.service-card li::marker {
+    color: var(--secondary-color);
+}
+
+.service-card li {
+    padding-left: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .service-card li {
+        margin: 0.6rem 0;
+    }
+}
+
+button {
+    background: var(--secondary-color);
+    color: var(--text-color);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: var(--text-color);
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .section {
+        padding: 3rem 1rem;
+    }
+}
+
+/* About Section */
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.highlight {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+.achievements {
+    columns: 2;
+    margin: 2rem 0;
+}
+
+.achievements li {
+    margin-bottom: 1rem;
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.achievements li::before {
+    content: '✔️';
+    position: absolute;
+    left: 0;
+}
+
+.principles {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.principle {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Form Elements */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+select {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem; 
+    margin: 1rem 0;
+}
+
+.checkbox input[type="checkbox"] {
+    margin: 0;
+    flex-shrink: 0;
+    width: 18px; 
+    height: 18px; 
+}
+
+.checkbox label {
+    margin: 0;
+    line-height: 1.4;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .achievements {
+        columns: 1;
+    }
+}

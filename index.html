@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolutions - IT решения для бизнеса</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/src/icon.ico">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <h1>TechSolutions</h1>
+            <div class="nav-links">
+                <a href="#home">Главная</a>
+                <a href="#about">О нас</a>
+                <a href="#services">Услуги</a>
+                <a href="#contact">Контакты</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Данный сайт разрабатывался командой трех студентов колледжа ОмГТУ -->
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Инновационные IT решения для вашего бизнеса</h1>
+                <p>Оптимизируйте свои бизнес-процессы с помощью наших решений</p>
+            </div>
+        </section>
+
+        <section class="section about" id="about">
+            <h2>О нашей компании</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="highlight">TechSolutions - ведущий поставщик IT-решений с 2010 года. Более 13 лет мы помогаем компаниям трансформировать свой бизнес с помощью цифровых технологий.</p>
+                    
+                    <h3>Наши достижения:</h3>
+                    <ul class="achievements">
+                        <li>✅ 500+ успешных проектов</li>
+                        <li>✅ 98% клиентов рекомендуют нас</li>
+                        <li>✅ Сертифицированные специалисты</li>
+                        <li>✅ ISO 27001 сертификация</li>
+                    </ul>
+        
+                    <h3>Наши принципы:</h3>
+                    <div class="principles">
+                        <div class="principle">
+                            <h4>Инновации</h4>
+                            <p>Постоянное внедрение новых технологий и методологий разработки</p>
+                        </div>
+                        <div class="principle">
+                            <h4>Надежность</h4>
+                            <p>Гарантия бесперебойной работы всех внедренных решений</p>
+                        </div>
+                        <div class="principle">
+                            <h4>Конфиденциальность</h4>
+                            <p>Полная защита данных и коммерческой тайны клиентов</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="/src/team.jpg" 
+                         alt="Наша команда" 
+                         class="responsive-image">
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="services">
+            <h2>Наши услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>🌐 Веб-разработка</h3>
+                    <p>Полный цикл создания корпоративных сайтов и веб-приложений с использованием современных технологий:</p>
+                    <ul>
+                        <li>Индивидуальный дизайн</li>
+                        <li>Интеграция с CRM</li>
+                        <li>Техническая поддержка 24/7</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <h3>🔒 Кибербезопасность</h3>
+                    <p>Комплексная защита цифровых активов вашей компании:</p>
+                    <ul>
+                        <li>Аудит безопасности</li>
+                        <li>Защита от DDoS-атак</li>
+                        <li>Шифрование данных</li>
+                        <li>Обучение сотрудников</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <h3>☁️ Облачные решения</h3>
+                    <p>Оптимизация инфраструктуры с использованием облачных технологий:</p>
+                    <ul>
+                        <li>Миграция в облако</li>
+                        <li>Резервное копирование</li>
+                        <li>Масштабируемые решения</li>
+                        <li>Гибкая тарификация</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <h3>🤖 Искусственный интеллект</h3>
+                    <p>Внедрение AI в бизнес-процессы:</p>
+                    <ul>
+                        <li>Чат-боты</li>
+                        <li>Аналитика данных</li>
+                        <li>Прогнозные модели</li>
+                        <li>Автоматизация рутинных задач</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <h2>Свяжитесь с нами</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Полное имя:</label>
+                    <input type="text" id="name" name="name" placeholder="Иван Иванов" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="company">Компания:</label>
+                    <input type="text" id="company" name="company" placeholder="Название вашей компании">
+                </div>
+            
+                <div class="form-group">
+                    <label for="phone">Контактный телефон:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+7 (999) 123-45-67">
+                </div>
+            
+                <div class="form-group">
+                    <label for="email">Электронная почта:</label>
+                    <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="service">Интересующая услуга:</label>
+                    <select id="service" name="service">
+                        <option value="">Выберите услугу</option>
+                        <option value="web">Веб-разработка</option>
+                        <option value="security">Кибербезопасность</option>
+                        <option value="cloud">Облачные решения</option>
+                        <option value="ai">Искусственный интеллект</option>
+                    </select>
+                </div>
+            
+                <div class="form-group">
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" rows="5" 
+                              placeholder="Опишите ваши требования и задачи..." required></textarea>
+                </div>
+            
+                <div class="form-group checkbox">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    <label for="consent">Я согласен на обработку персональных данных</label>
+                </div>
+            
+                <button type="submit">Отправить запрос</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 TechSolutions. Все права защищены.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
